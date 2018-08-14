@@ -1,0 +1,44 @@
+
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.calc {
+position: absolute;
+     right: 45%;
+          left: 45%;
+
+    width: 300px;
+    padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin:auto;
+
+}
+
+.custom {
+    width: 78px !important;
+    border: 1px solid #d9d9d9 !important;
+}
+
